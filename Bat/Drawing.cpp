@@ -1,6 +1,6 @@
 #include <string>
-#include <thread> // Include for std::thread
-#include <chrono> // Include for std::chrono
+#include <thread>
+#include <chrono>
 #include "BatObfuscate.h"
 #include "Drawing.h"
 #include "encrypt.h"
@@ -17,7 +17,6 @@ bool isObfuscating = false;
 static bool statusDisplayed = false;
 
 void errorBeep() {
-	// Call Beep function
 	Beep(100, 500);
 }
 
