@@ -97,7 +97,7 @@ void Drawing::Draw()
 			if (ImGui::IsItemHovered()) {
 				ImGui::BeginTooltip();
 				ImGui::Spacing();
-				ImGui::Text(x("Please specify the number of obfuscation iterations.\n-> For example, choose a value between 1 and 1000.\n+ Increasing the iteration count will result in a larger size."));
+				ImGui::Text(x("Please specify the number of obfuscation iterations.\n-> For example, choose a value between 1 and 2500.\n+ Increasing the iteration count will result in a larger size & longer wait."));
 				ImGui::Spacing();
 				ImGui::EndTooltip();
 			}
