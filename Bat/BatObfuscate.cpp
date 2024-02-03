@@ -107,9 +107,9 @@ namespace BatObfuscate {
 
 	std::string generateRandomString(int length) {
 		static const char alphanum[] =
-			"0123456789"
-			"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-			"abcdefghijklmnopqrstuvwxyz";
+			"$0123456789"
+			"$ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+			"$abcdefghijklmnopqrstuvwxyz";
 
 		std::random_device rd;
 		std::mt19937 gen(rd());
