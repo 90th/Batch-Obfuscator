@@ -5,5 +5,5 @@
   <br>
   <img src="https://i.imgur.com/VxlWDRG.png" alt="Help1">
     <br>
-    <img src="https://i.imgur.com/h95frMv.png" alt="Version">
+    <img src="https://i.imgur.com/9FS4AzY.png" alt="Version">
 </div>
