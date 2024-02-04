@@ -156,7 +156,7 @@ void Drawing::Draw()
 				ImVec2 image_size{ 64, 64 };
 				ImGui::Image((void*)UI::ImageResource, image_size);
 				ImGui::SameLine();
-				ImGui::Text(x("Version: 1.0\nCreated By Klonopin\nFor the Users of HackForums\nWith great power comes great responsibility."));
+				ImGui::Text(x("Version: 1.0\nFinal Build.\nCreated By 90th\nWith great power comes great responsibility."));
 				ImGui::Spacing();
 				ImGui::EndTooltip();
 			}
